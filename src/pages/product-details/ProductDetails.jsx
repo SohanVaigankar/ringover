@@ -35,7 +35,7 @@ const ProductDetails = () => {
           <div className="head">
             <BiIcons.BiArrowBack
               className="back-icon"
-              onClick={() => navigate("/")}
+              onClick={() => navigate(-1)}
             />
             <span className="prod-heading">Your design space</span>
             <div className="designSpace">
